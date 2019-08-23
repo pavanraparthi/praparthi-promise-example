@@ -8,7 +8,7 @@ appDiv.innerHTML = `<h1>Promise Example</h1><h4>Thanks to Techsith tutorials</h4
 // Simple Promise Creation 
 let cleanRoom = new Promise(function(resolve,reject){
   // Do your clean work
-  let isCleanDone = false;//true/false
+  let isCleanDone = true;//true/false
   if(isCleanDone)
     resolve('Room Cleaning Done :)');
   else 
